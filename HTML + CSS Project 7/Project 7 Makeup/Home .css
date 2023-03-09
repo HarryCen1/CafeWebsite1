@@ -1,0 +1,148 @@
+body {
+    background-color: hsl(14, 83%, 55%);
+    font-family:Oswald ;
+
+}
+
+.Service {
+    background-color: rgb(241, 234, 234);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.Services {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+
+}
+
+.Intro-Top {
+    position: relative;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.Intro-Top i{
+    background-color: rgb(255 118 77);
+    font-size: 30px;
+    border: 20px solid rgb(255 118 77);
+    border-radius: 50%;
+    text-decoration: none;
+    color: black;
+}
+
+
+/*Environment*/
+
+.Enviroment {
+    width: 100%;
+    height: 350vh;
+    background-color: rgb(241, 234, 234);
+    position: relative;
+
+}
+
+.Enviroment-Head {
+    text-align: center;
+}
+
+.Try1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    gap: 20px 20px;
+}
+
+.Try2 {
+    display: flex;
+    justify-content: center;
+    padding-left: 150px;
+    padding-right: 100px;
+    padding-top: 60px;
+}
+
+
+.Try2-1 {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Try2-1:nth-child(1) {
+    background-image: url(../Images/Office.3.avif);
+}
+
+.Try2-1:nth-child(2) {
+    background-image: url(../Images/Office.5.avif);
+}
+
+
+.Broke{
+    background-image: url(../Images/Lemon-Cake.avif);
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+
+
+.Try2-2{
+    color:rgb(255 118 77);
+    height: auto;
+    width: 50%;
+    align-self: self-end;
+    font-size: 20px;
+    letter-spacing: .2rem;
+    word-wrap: break-word;
+    margin-left: 20px;
+    object-fit: contain;
+}
+
+.Try2-2 h2 {
+    font-size: 80px;
+}
+
+.Try2-2 p {
+    line-height: 1.5;
+}
+
+.Membership {
+    display: inline-block;
+    margin: 10px;
+    font-size: 12px;    
+    text-decoration: none;
+}
+
+.Membership:hover {
+    background-color: rgb(255 118 77);
+    cursor: pointer;
+    color: white;
+    transition-delay: .1s;
+}
+
+.Try2-2 a{
+    border-radius: 6rem;
+    border: none;
+    letter-spacing: .2rem;
+    padding: 1rem 2rem;
+    text-align: center;
+    background-color: white;  
+    font-weight: bold;
+    color: rgb(255 118 77);
+
+}
+
+
+
+
+

@@ -1,0 +1,79 @@
+body {
+    background-color: lightcoral;
+
+}
+
+.Menu-head {
+    width: 100%;
+    min-height: 10vh;
+    text-align: center;
+}
+
+.Menu-head h1 {
+    background-color: red;
+    font-size: 4em;
+}
+
+.Menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 77%;    
+    height: auto;
+    background-color: lightsalmon;
+    gap: 20px;
+    margin: auto;
+    border: 3px solid green;
+    padding: 3px;
+
+
+}
+
+.Menu-List {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: auto;
+    text-align: center;
+}
+
+.Area-Left-Menu {
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+    background-color: rgb(255 118 77);
+    width: 100%;
+    height: auto;
+    text-align: left;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.Left-Menu h1 {
+    color: whitesmoke;
+    text-shadow: 2px 2px black;
+}
+
+.Left-Menu h3:hover{
+    background-color: white;
+}
+
+.Menu-Images {
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+}
+
+.Menu-Image-1, 
+.Menu-Image-2 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.Menu-Image-1 {
+    background-image: url(../Images/Latte.avif);
+}
+
+.Menu-Image-2 {
+    background-image: url(../Images/Cookies-Box.avif);
+}
+

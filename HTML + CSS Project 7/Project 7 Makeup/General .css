@@ -1,0 +1,114 @@
+body {
+    font-family:Oswald ;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+button {
+    font-family:Oswald ;
+
+}
+
+/*Social-Media-Footer*/
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    min-height: auto;
+}
+
+.Social-List,
+.Social-Media,
+.Opening-Time,
+.Email,
+.Emails-Head {
+    text-align: center;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.Social-Media {
+    display: flex;
+}
+
+.Day-Time-Grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 30px;
+}
+
+.Day, 
+.Time   {
+    list-style-type: none;
+    text-align:justify;
+    font-size: 30px;
+}
+
+footer a {
+    width: 85px;
+    height: 85px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: red;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 45px;
+}
+
+
+.Email{
+    display:grid ;
+    grid-template-columns: 1fr 2fr;
+}
+
+.Email-White {
+    padding-left: 60px;
+}
+
+
+
+.Email input{
+    padding: 15px;
+    padding-right: 200px;
+    width: 100%;
+    max-width: 100px;
+    height: auto;
+    position: relative;
+}
+
+
+.Logo a {
+    text-decoration: none;
+    color: red;
+}
+
+
+.Membership {
+    display: inline-block;
+    margin: 10px;
+    font-size: 25px;    
+    text-decoration: none;
+    border-radius: 6rem;
+    border: none;
+    letter-spacing: .2rem;
+    padding: 1rem 2rem;
+    text-align: center;
+    background-color: white;  
+    font-weight: bold;
+    color: rgb(255 118 77);
+}
+
+.Membership:hover {
+    background-color: rgb(255 118 77);
+    cursor: pointer;
+    color: white;
+    transition-delay: .1s;
+}

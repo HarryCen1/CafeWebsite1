@@ -1,0 +1,26 @@
+
+
+body {
+    background-image: url(../Images/Office.7.avif);   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+.About-head {
+    text-align: center;
+    font-size: 30px;
+    border: 1px solid black;
+    width: 100%;
+    height: auto;
+
+}
+
+.About-head p{
+    margin: 5%;
+    font-weight: bold;
+    color: rgb(241, 234, 234);
+    text-shadow: 2px 2px black;
+    letter-spacing: 2px;
+}

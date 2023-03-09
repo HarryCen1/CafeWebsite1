@@ -1,0 +1,306 @@
+        <!--Drinks & Food-->
+        <div class="Drinks-Food">
+            <div class="Drinks-Food-Head">
+                <h1>Drinks & Food</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, magni?</p>
+            </div>
+
+            <div class="Product1">
+                <div class="Product2">
+                    <img src="Images/Latte2.avif" alt="">
+                    <h2>Tea</h2>
+                    <p class="Product-Price">£3.45</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <button>More</button>
+                </div>
+
+                <div class="Product2">
+                    <img src="Images/Cappuicino.avif" alt="">
+                    <h2>Cappuccino</h2>
+                    <p class="Product-Price">£3.45</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <button>More</button>
+                </div>
+
+                <div class="Product2">
+                    <img src="Images/Americano.avif" alt="">
+                    <h2>Americano</h2>
+                    <p class="Product-Price">£3.00</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <button>More</button>
+                </div>
+
+                <div class="Product2">
+                    <img src="Images/Mocha.avif" alt="">
+                    <h2>Mocha</h2>
+                    <p class="Product-Price">£3.60</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <button>More</button>
+                </div>
+
+                <div class="Product2">
+                    <img src="Images/Flate White.avif" alt="">
+                    <h2>Flat White</h2>
+                    <p class="Product-Price">£3.55</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <button>More</button>
+                </div>
+
+                <div class="Product2">
+                    <img src="Images/Hot Choloclate.avif" alt="">
+                    <h2>Hot Cholocolate</h2>
+                    <p class="Product-Price">£3.65</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <button>More</button>
+                </div>
+
+                <div class="Product2">
+                    <img src="Images/Tea.avif" alt="">
+                    <h2>Tea</h2>
+                    <p class="Product-Price">£2.65</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <button>More</button>
+                </div>
+
+                <div class="Product2">
+                    <img src="Images/Tea.avif" alt="">
+                    <h2>Tea</h2>
+                    <p class="Product-Price">£2.65</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <button>More</button>
+                </div>
+            </div>
+
+        </div>
+
+
+        /*Drinks&Food*/
+
+.Drinks-Food {
+    width: 100%;
+    height: 220vh;
+    background-color: red;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.Drinks-Food-Head{
+    margin-bottom: 100px;
+    border: 2px solid rgb(255 118 77);
+
+}
+
+.Product1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    gap: 20px;
+    
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.Product2 {
+    max-width: 320px;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+}
+
+.Product-Price {
+    color: grey;
+    font-size: 32px;
+}
+
+.Product2 button{
+    border: none;
+    outline: 0;
+    padding: 14px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
+
+}
+
+.Product2 img{
+    width: 100%;
+}
+
+
+        <!--Membership-->
+        <div class="Our-Membership">
+            <h3>Our Membership </h3>
+            <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium ducimus necessitatibus tempora eveniet! Mollitia eius repudiandae nulla suscipit. Quidem, voluptates?</h1>
+            <h4><i class="fa-solid fa-ban"></i> Note: Cancelling a membership will require a 30 day notice</h4>
+        </div>
+
+        <div class="Our-Membership-Offers">
+
+
+            <div class="Membership-Offers">
+                <div class="Membership-Name">
+                    <h1>RESIDENT</h1>
+                </div>
+                <div class="Membership-Info">                
+                    <p>
+                        24/7 Access  
+                        <br>
+                        Permanent Desk Space                     
+                        <br>
+                        All Equiment Access 
+                    </p>
+                </div>
+                <div class="Membership-Price">
+                    <h3>£320</h3>
+                    <p>
+                            Per Member 
+                        <br>
+                            Per Month
+                    </p>
+                </div>
+                <div class="Membership-Link-Info">
+                    <a href="*">
+                        Grab Memebership
+                            <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="Membership-Offers">
+                <div class="Membership-Name">
+                    <h1>UNLIMITED</h1>
+                </div>
+                <div class="Membership-Info">
+                    <p>
+                        Unlimited Hours
+                        <br>
+                        24/7 Access 
+                        <br>
+                        Advance Location Booking
+                    </p>
+                </div>
+                <div class="Membership-Price">
+                    <h3>£235</h3>
+                    <p>
+                        Per Member 
+                        <br>
+                        Per Month
+                    </p>
+                </div>
+                <div class="Membership-Link-Info">
+                    <a href="*">
+                        Grab Memebership
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="Membership-Offers">
+                <div class="Membership-Name">
+                    <h1>STUDENT(+18)</h1>
+                </div>
+                <div class="Membership-Info">
+                    <p>
+                        100HRS pcm
+                        <br>
+                        24/7 Access
+                        <br>
+                        Discount 
+                    </p>
+                </div>
+                <div class="Membership-Price">
+                    <h3>£160</h3>
+                    <p>
+                        Per Member 
+                        <br>
+                        Per Month
+                    </p>
+                </div>
+                <div class="Membership-Link-Info">
+                    <a href="*">
+                        Grab Memebership
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="Membership-Offers">
+                <div class="Membership-Name">
+                    <h1>STUDENT(16-18)</h1>
+                </div>
+                <div class="Membership-Info">
+                    <p>
+                        45HRS pcm
+                        <br>
+                        8:30AM-6PM
+                        <br>
+                        WEEKDAYS ONLY
+                    </p>
+                </div>
+                <div class="Membership-Price">
+                    <h3>£60</h3>
+                    <p>
+                        Per Member 
+                        <br>
+                        Per Month
+                    </p>
+
+                </div>
+                <div class="Membership-Link-Info">
+                    <a href="*">
+                        Grab Memebership
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="Membership-Offers">
+                <div class="Membership-Name">
+                    <h1>Coffee House Fan</h1>
+                </div>
+                <div class="Membership-Info">
+                    <p>
+                        Gain 8 Coffee Stamp
+                        <br>
+                        By Ordering & Drinking Doffee
+                        <br>
+                        Get Your Next Coffee For FREE
+                    </p>
+                </div>
+                <div class="Membership-Price">
+                    <h3>FREE</h3>
+                </div>
+                <div class="Membership-Link-Info">
+                    <a href="*">
+                        Download App
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="Try2">
+            <div class="Try2-2">
+                <p>About Us</p>
+                <h2>Keep It Relax</h2>
+                <p>For Sole-Traders, Partenership or Limited Company, <br> offices desgined to make your work productive as <br>possible with afforable fixed prizing </p>
+                <div class="Membership-Buttons">
+                     <a class="Membership" href="./Priviate-Offices">
+                        View Privaite Offfices<i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+            </div>
+
+            <div class="Try2-1">
+
+            </div>
+        </div>
